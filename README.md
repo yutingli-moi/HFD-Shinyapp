@@ -46,21 +46,22 @@ Run the script: `Update_data_from_HFDweb.R`
 
 -   Automatically downloads and processes new data from HFD  
 -   Built using an package "HMDHFDplus" by [\@Timothy](https://github.com/timriffe/TR1)[ L. M. Riffe](https://github.com/timriffe/TR1)\
--   **⚠️ Credentials required**: To run the HFD update script, you need to register with HFD and define your HFD username and password in a `.Renviron` file in the project root directory. This file should look like:  
+-   **⚠️ Credentials required**: To run the HFD update script, you need to register with HFD and define your HFD username and password in a `.Renviron` file in the project root directory.   
+    You can rename `.Renviron.example` to `.Renviron` and replace with your actual HFD credentials:  
 
 ``` text
 HFD_username=your_email@example.com  
 HFD_password=your_secure_password
 ```
-
+-   Save the file and **restart RStudio** so the environment variables take effect.
 -   **⚠️ Do not share or commit the `.Renviron` file to GitHub. Make sure `.Renviron` is listed in `.gitignore`.**
 
 #### Data update steps:
-
-1.  Run `Update_data_from_HFDweb.R`  
-2.  Wait 3–7 minutes (depending on network/server speed)  
-3.  Check `update_log.txt`  
-4.  Restart the app and verify updated plots
+1.  Create a `.Renviron` file in the root directory of the project. (**restart RStudio**)
+2.  Run `Update_data_from_HFDweb.R`  
+3.  Wait 3–7 minutes (depending on network/server speed)  
+4.  Check `update_log.txt`  
+5.  Restart the app and verify updated plots
 
 ------------------------------------------------------------------------
 
@@ -73,7 +74,7 @@ HFD_password=your_secure_password
 ├── Update_data_from_HFDweb.R     # Script for API data update
 ├── update_log.txt                # Log file for tracking updates
 ├── .gitignore                    # Make sure ignore .Renviron
-├── .Renviron                     # Save HFD username and password here
+├── .Renviron.example             # Save HFD username and password here
 └── README.md                     # Readme for project instructions
 ```
 
