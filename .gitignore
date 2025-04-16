@@ -1,0 +1,8 @@
+# History files
+.Rhistory
+
+# Session Data
+.RData
+
+# employ enviornment files
+manifest.json
