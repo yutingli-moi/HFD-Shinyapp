@@ -1,0 +1,71 @@
+[2024-09-11 16:13:47.327333] Start data update from HFD
+[2024-09-11 16:22:23.271429] Start data update from HFD
+[2024-09-11 16:25:44.278223] TFR Data update completed: Number of rows = 2445 , Number of columns = 5
+[2024-09-11 16:25:44.278762] adjTFR Data update completed: Number of rows = 1506 , Number of columns = 4
+[2024-09-11 16:25:44.27915] MAB(mean age at first birth) Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-09-11 16:25:44.279489] CCF(completed cohort fertility) Data update completed: Number of rows = 1430 , Number of columns = 6
+[2024-09-11 16:25:44.279875] Parity distribution Data update completed: Number of rows = 4556 , Number of columns = 5
+[2024-09-11 16:25:44.287222] Age-specific fertility Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-09-11 19:18:33.597941] Start data update from HFD
+[2024-09-11 19:18:48.975079] Start data update from HFD
+[2024-09-11 19:22:19.837521] Start data update from HFD
+[2024-09-11 19:25:41.956111] TFR Data update completed: Number of rows = 2445 , Number of columns = 5
+[2024-09-11 19:25:41.9567] adjTFR Data update completed: Number of rows = 1506 , Number of columns = 4
+[2024-09-11 19:25:41.957208] MAB(mean age at first birth) Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-09-11 19:25:41.957626] CCF(completed cohort fertility) Data update completed: Number of rows = 1430 , Number of columns = 6
+[2024-09-11 19:25:41.958102] Parity distribution Data update completed: Number of rows = 1139 , Number of columns = 7
+[2024-09-11 19:25:41.95851] Age-specific fertility Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-09-13 09:43:20.686872] Start data update from HFD
+[2024-09-13 09:47:19.954274] TFR Data update completed: Number of rows = 2445 , Number of columns = 5
+[2024-09-13 09:47:19.955056] adjTFR Data update completed: Number of rows = 1506 , Number of columns = 4
+[2024-09-13 09:47:19.955576] MAB(mean age at first birth) Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-09-13 09:47:19.956031] CCF(completed cohort fertility) Data update completed: Number of rows = 1430 , Number of columns = 6
+[2024-09-13 09:47:19.956452] Parity distribution Data update completed: Number of rows = 1139 , Number of columns = 7
+[2024-09-13 09:47:19.956908] Age-specific fertility Data update completed: Number of rows = 2275 , Number of columns = 6
+[2024-10-31 22:48:13.695113] Start data update from HFD
+[2024-10-31 22:50:42.026304] Start data update from HFD
+[2024-10-31 22:54:24.612763] TFR Data update completed: Number of rows = 2445 , Number of columns = 5
+[2024-10-31 22:54:24.613361] adjTFR Data update completed: Number of rows = 1506 , Number of columns = 4
+[2024-10-31 22:54:24.613992] MAB(mean age at first birth) Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-10-31 22:54:24.614597] CCF(completed cohort fertility) Data update completed: Number of rows = 1430 , Number of columns = 6
+[2024-10-31 22:54:24.61529] Parity distribution Data update completed: Number of rows = 1139 , Number of columns = 7
+[2024-10-31 22:54:24.61598] Age-specific fertility Data update completed: Number of rows = 2275 , Number of columns = 6
+[2024-11-05 23:22:54.686499] Start data update from HFD
+[2024-11-05 23:26:43.30981] TFR Data update completed: Number of rows = 2445 , Number of columns = 5
+[2024-11-05 23:26:43.310424] adjTFR Data update completed: Number of rows = 1506 , Number of columns = 4
+[2024-11-05 23:26:43.311055] MAB(mean age at first birth) Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-11-05 23:26:43.312591] CCF(completed cohort fertility) Data update completed: Number of rows = 1430 , Number of columns = 6
+[2024-11-05 23:26:43.313431] Parity distribution Data update completed: Number of rows = 1139 , Number of columns = 7
+[2024-11-05 23:26:43.314086] Age-specific fertility Data update completed: Number of rows = 2275 , Number of columns = 6
+[2024-11-06 00:51:49.173578] Start data update from HFD
+[2024-11-06 00:55:28.149164] TFR Data update completed: Number of rows = 2445 , Number of columns = 5
+[2024-11-06 00:55:28.150111] adjTFR Data update completed: Number of rows = 1506 , Number of columns = 4
+[2024-11-06 00:55:28.151049] MAB(mean age at first birth) Data update completed: Number of rows = 2275 , Number of columns = 5
+[2024-11-06 00:55:28.151995] CCF(completed cohort fertility) Data update completed: Number of rows = 1430 , Number of columns = 6
+[2024-11-06 00:55:28.1528] Parity distribution Data update completed: Number of rows = 1139 , Number of columns = 7
+[2024-11-06 00:55:28.153748] Age-specific fertility Data update completed: Number of rows = 2275 , Number of columns = 6
+[2024-12-02 21:19:06.434151] Start data update from HFD
+[2024-12-02 21:28:49.728025] Start data update from HFD
+[2024-12-02 21:41:01.66169] Start data update from HFD
+[2024-12-02 21:42:25.206275] Start data update from HFD
+[2024-12-02 21:44:17.179341] Start data update from HFD
+[2024-12-02 21:47:31.75539] Start data update from HFD
+[2024-12-02 21:00:07.104037] Start data update from HFD
+[2024-12-03 00:17:48.387322] Start data update from HFD
+[2025-04-15 13:36:02.005649] Start data update from HFD
+[2025-04-15 13:37:55.066702] Start data update from HFD
+[2025-04-15 16:16:33.369425] Start data update from HFD
+[2025-04-15 16:19:37.629588] TFR Data update completed: Number of rows = 2489 , Number of columns = 5
+[2025-04-15 16:19:37.63103] adjTFR Data update completed: Number of rows = 1548 , Number of columns = 4
+[2025-04-15 16:19:37.634418] MAB(mean age at first birth) Data update completed: Number of rows = 1617 , Number of columns = 15
+[2025-04-15 16:19:37.635256] CCF(completed cohort fertility) Data update completed: Number of rows = 1456 , Number of columns = 6
+[2025-04-15 16:19:37.636125] Parity distribution Data update completed: Number of rows = 1177 , Number of columns = 7
+[2025-04-15 16:19:37.638325] Age-specific fertility Data update completed: Number of rows = 2319 , Number of columns = 6
+[2025-04-16 01:17:05.786371] Start data update from HFD
+[2025-04-16 01:21:55.105713] Start data update from HFD
+[2025-04-16 01:24:26.786526] TFR Data update completed: Number of rows = 2489 , Number of columns = 5
+[2025-04-16 01:24:26.788027] adjTFR Data update completed: Number of rows = 1548 , Number of columns = 4
+[2025-04-16 01:24:26.788921] MAB(mean age at first birth) Data update completed: Number of rows = 1617 , Number of columns = 15
+[2025-04-16 01:24:26.791152] CCF(completed cohort fertility) Data update completed: Number of rows = 1456 , Number of columns = 6
+[2025-04-16 01:24:26.79278] Parity distribution Data update completed: Number of rows = 1177 , Number of columns = 7
+[2025-04-16 01:24:26.793569] Age-specific fertility Data update completed: Number of rows = 2319 , Number of columns = 6
