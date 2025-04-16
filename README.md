@@ -10,8 +10,8 @@
 
 1.  [Project Overview](#1-project-overview)  
 2.  [Data Update Method](#2-data-update-method)  
-3.  [Project Structure](#3-project-structure)  
-4.  [Key Functionalities in UI](#4-key-functionalities-in-ui)  
+3.  [Project Structure](#3-project-structure  
+4.  [Key Functionalities in UI](#4-key-functionalities-in-ui)
 
 ------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ This is a visualization tool for fertility-related data across countries over a 
 
 -   **R** 4.4.3  
 -   **RStudio** 2024.12.1  
--   **Shiny** 1.10.0  
+-   **Shiny** 1.10.0
 
 The app uses data from the [**Human Fertility Database (HFD)**](https://www.humanfertility.org/) and provides the following features:
 
@@ -32,7 +32,7 @@ The app uses data from the [**Human Fertility Database (HFD)**](https://www.huma
 -   Language toggle (English/Finnish)  
 -   Dark mode toggle  
 -   Downloadable plots (JPG, PNG, EPS, PDF, PPTX)  
--   Hover tooltips and zoom/pan interactivity  
+-   Hover tooltips and zoom/pan interactivity
 
 ------------------------------------------------------------------------
 
@@ -42,19 +42,25 @@ The app fetches updated data from the HFD via an API.
 
 ### 🔹 Web API Update
 
-Run the script: `Update data from HFD web.R`
+Run the script: `Update_data_from_HFDweb.R`
 
 -   Automatically downloads and processes new data from HFD  
--   Built using an package "HMDHFDplus" by [@Timothy L. M. Riffe](https://github.com/timriffe/TR1)  
--   **⚠️ Credentials required**: To run the HFD update script, you need to define your HFD username and password in a `.Renviron` file in the project root directory. This file should look like: [HFD_username=your_email\@example.com](mailto:HFD_username=your_email@example.com){.email} HFD_password=your_secure_password  
--   **⚠️ Do not share or commit this file to GitHub. Make sure `.Renviron` is listed in `.gitignore`.**  
+-   Built using an package "HMDHFDplus" by [\@Timothy](https://github.com/timriffe/TR1)[ L. M. Riffe](https://github.com/timriffe/TR1)\
+-   **⚠️ Credentials required**: To run the HFD update script, you need to register with HFD and define your HFD username and password in a `.Renviron` file in the project root directory. This file should look like:\
 
-#### Update steps:
+``` text
+HFD_username=your_email@example.com  
+HFD_password=your_secure_password
+```
 
-1.  Run `Update data from HFD web.R`  
+-   **⚠️ Do not share or commit the .Renviron` file to GitHub. Make sure `.Renviron` is listed in `.gitignore`.**
+
+#### Data update steps:
+
+1.  Run `Update_data_from_HFDweb.R`  
 2.  Wait 3–7 minutes (depending on network/server speed)  
 3.  Check `update_log.txt`  
-4.  Restart the app and verify updated plots  
+4.  Restart the app and verify updated plots
 
 ------------------------------------------------------------------------
 
