@@ -10,3 +10,5 @@
 # Session Data
 *.RData
 *.rds
+
+*.html
