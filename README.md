@@ -1,68 +1,89 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Fertility Statistics Auto-visualization Tool
 
 **Version:** 3.1  
-**Date:** 16th April 2025 
+**Date:** 16 April 2025  
 **Author:** Yuting Li (yutili@utu.fi)
+
+---
+
+## 📋 Table of Contents
+
+1. [Project Overview](#1-project-overview)  
+2. [Data Update Method](#2-data-update-method)  
+3. [Project Structure](#3-project-structure)  
+4. [Key Functionalities in UI](#4-key-functionalities-in-ui)
 
 ---
 
 ## 1. Project Overview
 
-This is a visualization tool for fertility-related data across countries over a long-term period, built with **R (4.4.3)**, **RStudio (2024.12.1)**, and **Shiny (1.10.0)**.  
-It uses data from the Human Fertility Database (HFD) and provides rich interactive features including:
+This is a visualization tool for fertility-related data across countries over a long-term period, built with:
+
+- **R** 4.4.3  
+- **RStudio** 2024.12.1  
+- **Shiny** 1.10.0  
+
+The app uses data from the [**Human Fertility Database (HFD)**](https://www.humanfertility.org/) and provides the following features:
 
 - Fertility variable selection  
 - Country filtering  
 - Axis range customization  
-- Plot style selection  
+- Plot style themes  
 - Language toggle (English/Finnish)  
 - Dark mode toggle  
 - Downloadable plots (JPG, PNG, EPS, PDF, PPTX)  
-- Hover tooltips and zoom/pan features
+- Hover tooltips and zoom/pan interactivity  
 
 ---
 
 ## 2. Data Update Method
 
-The app uses a web API to fetch and update data directly from the Human Fertility Database.
+The app fetches updated data from the HFD via an API.
 
-### 🔹 Web API Update (**Recommended and Only Method**)
+### 🔹 Web API Update
 
-Run `Update data from HFD web.R`
+Run the script: `Update data from HFD web.R`
 
-- Automatically fetches and updates dataset from HFD via API (developed by @Timothy L. M. Riffe)
-- **⚠️ Credentials required**: HFD username & password are currently embedded in the script 
-- **Action required**: Restrict access to this script to authorized personnel only
+- Automatically downloads and processes new data from HFD  
+- Built using an API by @Timothy L. M. Riffe  
+- **⚠️ Credentials required**: HFD username & password are hard-coded in the script  
+- **Access control**: Restrict script access to authorized users only  
 
-**Update steps:**
-1. Run the script: `Update data from HFD web.R`
-2. Wait 3–7 minutes for download and processing (depending on network/server speed)
-3. Check `update_log.txt` to verify successful update
-4. Restart the Shiny app and inspect the plots
+#### Update steps:
+
+1. Run `Update data from HFD web.R`  
+2. Wait 3–7 minutes (depending on network/server speed)  
+3. Check `update_log.txt` for confirmation  
+4. Restart the app and verify updated plots
 
 ---
 
 ## 3. Project Structure
-├── 01_data/ # Contains updated datasets 
-│ └── HFD/ # Human Fertility Database files 
-├── app.R # Shiny app source (UI + Server) 
-├── Update data from HFD web.R # Script for API data update 
-├── update_log.txt # Log file for tracking updates 
-└── README.md # You are here 📘
 
-
+```text
+├── 01_data/                      # Contains updated datasets
+│   └── HFD/                      # Human Fertility Database files
+├── app.R                         # Shiny app source (UI + Server)
+├── Update data from HFD web.R    # Script for API data update
+├── update_log.txt                # Log file for tracking updates
+└── README.md                     # Readme for project instructions
+```
 ---
-##4. Key Functionalities
-1. Variable Selection: Choose among fertility-related indicators
-2. Country Selection: Filter dataset by selected countries
-3. Axis Ranges: Adjust X and Y axes via sliders
-4. Themes: Choose ggplot2/ggthemes style (Classic, Gray, etc.)
-5. Hover Tooltips: Show additional data on mouse hover
-6. Zoom & Pan: Explore plots interactively
-7. Download Options: Export plots as JPG, PNG, EPS, or PDF
-8. Language Toggle: Switch between English and Finnish
-9. Dark Mode: Enable dark mode for the UI and plots
 
----
-📬 For questions or improvements, contact Yuting Li at yutili@utu.fi
+## 4. Key Functionalities in UI
+1. Variable Selection – Choose among fertility-related indicators
+2. Country Selection – Filter dataset by selected countries
+3. Axis Ranges – Adjust X and Y axes using sliders
+4. Themes – Select ggplot2/ggthemes styles (Classic, Gray, etc.)
+5. Hover Tooltips – View additional info by hovering over points
+6. Zoom & Pan – Explore plots interactively via plotly
+7. Download Options – Export plots as JPG, PNG, EPS, PDF, or PPTX
+8. Language Toggle – Switch between English and Finnish
+9. Dark Mode – Enable a dark UI and dark-themed plots
 
+For questions or suggestions, contact Yuting Li at yutili@utu.fi
