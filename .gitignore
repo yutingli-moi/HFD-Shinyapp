@@ -1,8 +1,12 @@
-# History files
+# password and enviornment files
+.Renviron
 .Rhistory
+.RData
+.Rproj.user/
+
+# RStudio file
+*.Rproj
 
 # Session Data
-.RData
-
-# employ enviornment files
-manifest.json
+*.RData
+*.rds

@@ -1,8 +1,4 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
----
 # Fertility Statistics Auto-visualization Tool
 
 **Version:** 3.1  
@@ -50,9 +46,9 @@ The app fetches updated data from the HFD via an API.
 Run the script: `Update data from HFD web.R`
 
 - Automatically downloads and processes new data from HFD  
-- Built using an API by @Timothy L. M. Riffe  
-- **⚠️ Credentials required**: HFD username & password are hard-coded in the script  
-- **Access control**: Restrict script access to authorized users only  
+- Built using an package "HMDHFDplus" by @Timothy L. M. Riffe
+- **⚠️ Credentials required**: To run the HFD update script, you need to define your HFD username and password in a `.Renviron` file in the project root directory. This file should look like: HFD_username=your_email@example.com HFD_password=your_secure_password
+- **⚠️ Do not share or commit this file to GitHub. Make sure `.Renviron` is listed in `.gitignore`.**
 
 #### Update steps:
 
@@ -67,7 +63,7 @@ Run the script: `Update data from HFD web.R`
 
 ```text
 ├── 01_data/                      # Contains updated datasets
-│   └── HFD/                      # Human Fertility Database files
+│   └── hfd_data.RData            # Human Fertility Database files
 ├── app.R                         # Shiny app source (UI + Server)
 ├── Update data from HFD web.R    # Script for API data update
 ├── update_log.txt                # Log file for tracking updates

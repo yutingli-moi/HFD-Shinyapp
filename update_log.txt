@@ -69,3 +69,13 @@
 [2025-04-16 01:24:26.791152] CCF(completed cohort fertility) Data update completed: Number of rows = 1456 , Number of columns = 6
 [2025-04-16 01:24:26.79278] Parity distribution Data update completed: Number of rows = 1177 , Number of columns = 7
 [2025-04-16 01:24:26.793569] Age-specific fertility Data update completed: Number of rows = 2319 , Number of columns = 6
+[2025-04-16 19:26:32.278413] Start data update from HFD
+[2025-04-16 19:29:27.362807] Start data update from HFD
+[2025-04-16 19:32:33.32632] Start data update from HFD
+[2025-04-16 19:34:27.46869] Start data update from HFD
+[2025-04-16 19:37:16.745773] TFR Data update completed: Number of rows = 2489 , Number of columns = 5
+[2025-04-16 19:37:16.748606] adjTFR Data update completed: Number of rows = 1548 , Number of columns = 4
+[2025-04-16 19:37:16.749372] MAB(mean age at first birth) Data update completed: Number of rows = 1617 , Number of columns = 15
+[2025-04-16 19:37:16.750042] CCF(completed cohort fertility) Data update completed: Number of rows = 1456 , Number of columns = 6
+[2025-04-16 19:37:16.752012] Parity distribution Data update completed: Number of rows = 1177 , Number of columns = 7
+[2025-04-16 19:37:16.752649] Age-specific fertility Data update completed: Number of rows = 2319 , Number of columns = 6

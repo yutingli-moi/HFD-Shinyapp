@@ -17,8 +17,8 @@ rm(list = ls())
 current_dir <- getwd()                           #get current folder path
 setwd(current_dir)                               #set current path as working directory
 
-username <-"yutili@utu.fi"                       #HMDHFDplus requires username and password of HFD to load data
-password <- "Dsaw123321."
+username <- Sys.getenv("HFD_username")
+password <- Sys.getenv("HFD_password")
 
 log_file <- "update_log.txt"                     #set log's directory
 
