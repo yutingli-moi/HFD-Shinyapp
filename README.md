@@ -45,9 +45,10 @@ The app fetches updated data from the HFD via an API.
 Run the script: `Update_data_from_HFDweb.R`
 
 -   Automatically downloads and processes new data from HFD  
--   Built using an package "HMDHFDplus" by [\@Timothy](https://github.com/timriffe/TR1)[ L. M. Riffe](https://github.com/timriffe/TR1)\
+-   Built using an package "HMDHFDplus" by [\@Timothy](https://github.com/timriffe/TR1)[ L. M. Riffe](https://github.com/timriffe/TR1)  
 -   **⚠️ Credentials required**: To run the HFD update script, you need to register with HFD and define your HFD username and password in a `.Renviron` file in the project root directory.   
-    You can rename `.Renviron.example` to `.Renviron` and replace with your actual HFD credentials:  
+
+-   You can rename `.Renviron.example` to `.Renviron` and replace with your actual HFD credentials:  
 
 ``` text
 HFD_username=your_email@example.com  
