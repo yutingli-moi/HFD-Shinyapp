@@ -2,7 +2,7 @@
 
 **Version:** 3.1\
 **Date:** 16 April 2025\
-**Author:** Yuting Li ([yutili\@utu.fi](mailto:yutili@utu.fi))
+**Author:** Yuting Li ([yuting.li\@uni.lu](mailto:yuting.li@uni.lu))
 
 ------------------------------------------------------------------------
 
@@ -93,4 +93,4 @@ HFD_password=your_secure_password
 8.  Language Toggle – Switch between English and Finnish
 9.  Dark Mode – Enable a dark UI and dark-themed plots
 
-For questions or suggestions, contact Yuting Li at [yutili\@utu.fi](mailto:yutili@utu.fi)
+For questions or suggestions, contact Yuting Li at [yuting.li\@uni.lu](mailto:yuting.li@uni.lu)
